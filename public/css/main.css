@@ -12,16 +12,15 @@ p{
     font-size: 16px;
     line-height: 24px;
     font-weight: lighter;
-    font-family: "Montserrat";
+    font-family: "Montserrat light";
     text-align: justify;
     white-space: pre-line;
     letter-spacing: .4px;
     letter-spacing: .10px;
 }
 h4{
-    font-family: "Montserrat";
+    font-family: "Montserrat light";
     font-size: 34px; 
-    font-weight: bold;
     white-space: pre-line;
     line-height: inherit;
     letter-spacing: .10px;
@@ -496,7 +495,10 @@ main{
 /*Footer*/
 footer{
     background-color: #2e2b32;
-    padding: 40px 0 15px;
+    padding: 40px 0px;
+}
+footer a:hover{
+    color: #00819d!important
 }
 footer li p{
     color: #fff;
@@ -505,11 +507,35 @@ footer li p{
     font-size: 13px;
     line-height: 16px;
 }
+footer ul{
+    padding: 0px;
+}
 footer h5{
     color: #fff;
 }
+footer h4{
+    font-size: 18px;
+}
+footer .phone-footer{
+    margin: 40px 0px 20px;
+}
+footer .phone-footer .circle{
+    background: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    line-height: 32px;
+    display: inline-block;
+    margin-right: 12px;
+}
+footer .phone-footer i{
+    color: #2e2b32;
+}
 footer li a{
     color: whitesmoke;
+    font-size: 15px;
 }
 footer p{
     text-align: center;
@@ -526,6 +552,9 @@ footer ul li a.instagram {
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
+footer ul li{
+    margin-bottom: 8px;
+}
 footer .iso{
     float: right;
     width: 100px;
@@ -534,7 +563,7 @@ footer .iso{
 }
 footer .redes li {
     display: inline-block;
-    margin-right: 0;
+    margin-right: 10px;
 }
 footer .redes li a i{
     font-size: 18px;
