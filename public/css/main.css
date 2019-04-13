@@ -234,11 +234,12 @@ main{
     font-size: 16px;
     line-height: 24px;
     display: block;
+    transition: .3s;
+    -webkit-transition: .3s;
 }
-
 .main-btn:hover{
-    background: rgba(0,129,157,.5);
-    border-color: rgba(0,129,157,.5)
+    background: #00677F;
+    border-color: #00677F
 }
 /*First Section*/
 
