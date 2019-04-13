@@ -1,9 +1,9 @@
 *{
-    font-family: "";
+    font-family: "Montserrat";
 }
 ul, li{
     list-style-type: none;
-    font-family: "";
+    font-family: "Montserrat";
 }
 h1, h2, h3, h4, h5, h6{
     color: #c1c1c1
@@ -12,14 +12,14 @@ p{
     font-size: 16px;
     line-height: 24px;
     font-weight: lighter;
-    font-family: "";
+    font-family: "Montserrat";
     text-align: justify;
     white-space: pre-line;
     letter-spacing: .4px;
     letter-spacing: .10px;
 }
 h4{
-    font-family: "";
+    font-family: "Montserrat";
     font-size: 34px; 
     font-weight: bold;
     white-space: pre-line;
@@ -27,13 +27,13 @@ h4{
     letter-spacing: .10px;
 }
 h6{
-    font-family: "";
+    font-family: "Montserrat";
     font-size: 13px;
     font-weight: bold;
     letter-spacing: .10px;
 }
 span{
-    font-family: "";
+    font-family: "Montserrat";
     text-align: justify;
     letter-spacing: .10px;
     white-space: pre-line;
@@ -76,7 +76,6 @@ textarea.form-control:focus{
     border-bottom: 1px solid #835cdd;
 }
 label{
-    font-family: "Brandon Text regular";
     font-size: 16px;
     letter-spacing: .9px;
     color: #000;
@@ -91,36 +90,102 @@ textarea{
 
 
 /*navbar*/
+.nav-top{
+    background: #2e2b32;
+}
+.content-nav{
+    display: flex;
+    align-items: center;
+}
+.content-nav .navbar-brand{
+    display: block;
+    width: 20%;
+    padding: 0px 50px;
+    text-align: center
+}
+.nav-top  ul{
+    padding-right: 50px
+}
+.nav-top  ul li{
+    display: inline-block;
+    color: #fff!important
+}
+.nav-top  ul li h4{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.nav-top  ul li a{
+    color: #fff;;
+}
+.navbar-expand-lg .navbar-nav .nav-item.active{
+    border: 1px solid  rgba(255,255,255,.75);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    padding: .6rem 1.8rem; 
+}
+.navbar-expand-lg .navbar-nav{
+    min-width: 60%;
+}
+.navbar-expand-lg .navbar-nav.navbar-right{
+    min-width: inherit;
+}
+.navbar-expand-lg .navbar-nav.navbar-right .phone{
+    min-width: 160px;
+    background-color: #6b6b6a;
+    border: 1px solid transparent;
+    border-radius: 10px
+}
+.navbar-expand-lg .navbar-nav.navbar-right .phone img{
+    width: 22px;
+    margin-right: 5px
+}
+header .navbar-expand-lg .navbar-nav .nav-item,.navbar-dark .navbar-nav .nav-link{
+    color: #fff!important
+}
+.nav-top  ul li a.main-btn{
+    min-width: 178px;
+    margin-left:100px;
+}
+.nav-top  ul{
+    width: 80%;
+    background: #323232;
+    padding: 0px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.nav-top img{
+    max-width: 150px;
+    max-height: 72px;
+    width: auto;
+    height: auto;
+}
+
 .navbar{
     margin-bottom: 0 !important;
     border-radius: 0 !important;
     background-color: #2e2b32 !important;
 }
 
-.navbar-brand>img{
-    width: 10%;
-    position: absolute;
-    margin-left: 22px;
-}
 .navbar-default {
     background-color: #2e2b32;
     border-color: transparent;
     z-index: 9999;
 }
-.navbar-nav{
-    margin-top: 18px;
-}
 .navbar-default .navbar-nav>li>a {
     color: #000;
     font-size: 14px;
-    font-family: "Brandon Text regular";
 }
 .navbar-default .navbar-nav>li>.contact-link{
     color: #fff;
     font-size: 14px;
     position: relative;
     left: 50px;
-    font-family: "Brandon Text regular";
 }
 .navbar-default .navbar-nav>li>.contact-link:focus, 
 .navbar-default .navbar-nav>li>.contact-link:hover{
@@ -159,7 +224,18 @@ main{
     background-color: #37323a;
 }
 
-
+.main-btn{
+    min-width: 120px;
+    height: 42px;
+    border-radius:8px;
+    background-color:#00819d;
+    border: 1px solid #00819d;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+}
 /*First Section*/
 
 
@@ -426,6 +502,8 @@ footer li p{
     color: #fff;
     margin-top: 10px;
     text-align: left;
+    font-size: 13px;
+    line-height: 16px;
 }
 footer h5{
     color: #fff;
@@ -450,7 +528,7 @@ footer ul li a.instagram {
 }
 footer .iso{
     float: right;
-    width: 13%;
+    width: 100px;
     position: relative;
     bottom: 55px;
 }
