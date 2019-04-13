@@ -1,0 +1,465 @@
+*{
+    font-family: "";
+}
+ul, li{
+    list-style-type: none;
+    font-family: "";
+}
+h1, h2, h3, h4, h5, h6{
+    color: #c1c1c1
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: lighter;
+    font-family: "";
+    text-align: justify;
+    white-space: pre-line;
+    letter-spacing: .4px;
+    letter-spacing: .10px;
+}
+h4{
+    font-family: "";
+    font-size: 34px; 
+    font-weight: bold;
+    white-space: pre-line;
+    line-height: inherit;
+    letter-spacing: .10px;
+}
+h6{
+    font-family: "";
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .10px;
+}
+span{
+    font-family: "";
+    text-align: justify;
+    letter-spacing: .10px;
+    white-space: pre-line;
+}
+.on-desk{
+    display: block;
+}
+.on-mobile{
+    display: none
+}
+a:hover, a:focus{
+    text-decoration: none;
+    /*color: #835cdd;*/
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    outline: 0;
+}
+/*input:focus, .form-control{
+    outline: 0;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}*/
+.btn.active, .btn:active{
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+/*input[type="text"],  
+input[type="email"], 
+textarea.form-control{
+    background: transparent;
+    height: 60px;
+    font-family: "Brandon Text bold";
+    border: transparent;
+    font-size: 26px;
+}
+input[type="text"]:focus,  
+input[type="email"]:focus,
+textarea.form-control:focus{
+    border-bottom: 1px solid #835cdd;
+}
+label{
+    font-family: "Brandon Text regular";
+    font-size: 16px;
+    letter-spacing: .9px;
+    color: #000;
+    line-height: 20px;
+}
+textarea.form-control{
+    height: 80px;
+}
+textarea{
+    overflow: hidden;
+}*/
+
+
+/*navbar*/
+.navbar{
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+    background-color: #2e2b32 !important;
+}
+
+.navbar-brand>img{
+    width: 10%;
+    position: absolute;
+    margin-left: 22px;
+}
+.navbar-default {
+    background-color: #2e2b32;
+    border-color: transparent;
+    z-index: 9999;
+}
+.navbar-nav{
+    margin-top: 18px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-size: 14px;
+    font-family: "Brandon Text regular";
+}
+.navbar-default .navbar-nav>li>.contact-link{
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    left: 50px;
+    font-family: "Brandon Text regular";
+}
+.navbar-default .navbar-nav>li>.contact-link:focus, 
+.navbar-default .navbar-nav>li>.contact-link:hover{
+    color: #fff;
+}
+.navbar-nav .btn-cotiza{
+    background: #00819d;
+    padding: .5rem 3rem !important;
+    border-radius: 10px;
+}
+nav ul .phone a.nav-link{
+    background: #838688;
+    border-radius: 10px;
+    color: #fff;
+}
+nav .redes a{
+    border-radius: 50% !important;
+    padding: 0 5px !important;
+}
+nav ul li a i.fab.fa-facebook-f{
+    background: #3a5998 !important;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+}
+nav ul li a i.fab.fa-instagram {
+    background: #d6249f !important;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%) !important;
+    padding: 10px 12px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+}
+main{
+    background-color: #37323a;
+}
+
+
+/*First Section*/
+
+
+
+
+/*Second Section*/
+.second-section{
+    padding: 40px 0;
+}
+.second-section .common-box--title{
+    color: #c1c1c1;
+    text-align: center;
+}
+.second-section .common-box--title h5{
+    font-size: 17px;
+    line-height: 3.1;
+}
+.second-section .common-box{
+    display: inline-flex;
+}
+.second-section .common-box a{
+    border-radius: 6%;
+    border: 1px solid #fff;
+    padding: 25px 25px 0;
+    margin-left: 18px;
+    text-align: center;
+}
+.second-section .common-box a{
+    cursor: pointer;
+}
+.second-section .common-box a:active, 
+.second-section .common-box a:hover{
+    background: #666;
+}
+.second-section .common-box p{
+    position: relative;
+    top: 40px;
+    line-height: 1;
+    margin-bottom: 0;
+    color: #c1c1c1;
+}
+
+
+/*Third Section*/
+.third-section{
+    padding: 40px 0;
+}
+.third-section .common-box{
+    background-image: url(../images/usados.png);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: auto;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+
+
+/*Fourth Section*/
+
+
+
+
+/*Fifth Section*/
+.fifth-section{
+    padding: 40px 0;
+}
+.fifth-section .card{
+    background-color: #3b3c3d !important;
+    border: transparent !important;
+}
+.fifth-section .card-title{
+    color: #c1c1c1;
+}
+
+
+
+/*Cotiza Section*/
+
+.first-section.cotiza{
+    padding: 40px 0;
+}
+.first-section.cotiza form{
+    background: #3a3b3c;
+    padding: 50px;
+    border-radius: 15px;
+    color: #c1c1c1;
+}
+.first-section.cotiza .form-control{
+    font-size: 1.3rem;
+    color: #c1c1c1;
+    background-color: #3b3c3c;
+}
+.first-section.cotiza form button.btn-solicita{
+    background: #00819d !important;
+    border: #00819d !important;
+    float: right;
+}
+.first-section.cotiza .card .card-body.first{
+    padding: .5rem .5rem .5rem 2rem;
+}
+.first-section.cotiza .card .card-body.first img{
+    width: 20%;
+    border-right: 1px solid red;
+    padding-right: 10px;
+}
+.first-section.cotiza .card .card-body.first .card-title{
+    float: right;
+    margin-right: 52px;
+    margin-bottom: 0;
+}
+.first-section.cotiza .card .card-body.second .ref{
+    float: right;
+    line-height: 0;
+}
+.first-section.cotiza .card .card-body.second .bono{
+    margin-bottom: 0;
+}
+.first-section.cotiza .card .card-body.second a.btn-seeModel{
+    width: 70%;
+    margin-top: 12px;
+    background: #00819d !important;
+    border: #00819d !important;
+}
+
+/*Usados Section*/
+
+.first-section.usados{
+    padding: 40px 0;
+    background-image: url(../images/usados.png);
+    width: 100%;
+    position: relative;
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    z-index: 1;
+    opacity: 0.7;
+}
+.first-section.usados .types-cars{
+    background: #c1c1c1;
+    padding: 50px;
+}
+
+.first-section.usados h2,
+.second-section.usados h2{
+    text-align: center;
+}
+
+.second-section.usados .card p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 1.5;
+}
+.second-section.usados .card{
+    border: transparent;
+}
+.second-section.usados .card .card-body.first{
+    background: #000;
+    padding: 1rem 1.25rem .5rem !important;
+}
+.second-section.usados .card .card-body.second{
+    background: #c1c1c1;
+    padding: 1rem 1.25rem .5rem !important;
+}
+.second-section.usados .card .card-body.third{
+    padding: 1rem 1.25rem !important;
+}
+.second-section.usados .card .card-body.third button{
+    background: #00819d !important;
+    border: #00819d !important;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+
+
+/*Modelo Section*/
+
+.second-section.model{
+    padding: 40px 0;
+}
+.second-section.model .common-box{
+    display: inline-flex;
+}
+.second-section.model .common-box a{
+    border-radius: 6%;
+    border: 1px solid #fff;
+    padding: 25px 25px 10px;
+    margin-left: 18px;
+}
+.second-section.model .common-box a{
+    cursor: pointer;
+}
+.second-section.model .common-box a:active, 
+.second-section.model .common-box a:hover{
+    background: #666;
+}
+.second-section.model .common-box p{
+    position: relative;
+    top: 40px;
+    line-height: .5;
+    margin-bottom: 0;
+    color: #c1c1c1;
+}
+.third-section.model{
+    padding: 40px 0;
+}
+.third-section.model .card .card-body.first{
+    padding: .5rem .5rem .5rem 2rem;
+}
+.third-section.model .card .card-body.first img{
+    width: 20%;
+    border-right: 1px solid red;
+    padding-right: 10px;
+}
+.third-section.model .card .card-body.first .card-title{
+    float: right;
+    margin-right: 52px;
+    margin-bottom: 0;
+}
+.third-section.model .card .card-body.second .ref{
+    float: right;
+    line-height: 0;
+}
+.third-section.model .card .card-body.second .bono{
+    margin-bottom: 0;
+}
+.third-section.model .card .card-body.second a.btn-seeModel{
+    width: 70%;
+    margin-top: 12px;
+    background: #00819d !important;
+    border: #00819d !important;
+}
+
+
+
+/*Historia Section*/
+
+.first-section.historia{
+    padding: 100px 0;
+}
+.first-section.historia h2{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.first-section.historia .common-box__text p{
+    white-space: inherit;
+    font-size: 20px;
+    color: #c1c1c1;
+}
+
+
+
+/*Footer*/
+footer{
+    background-color: #2e2b32;
+    padding: 40px 0 15px;
+}
+footer li p{
+    color: #fff;
+    margin-top: 10px;
+    text-align: left;
+}
+footer h5{
+    color: #fff;
+}
+footer li a{
+    color: whitesmoke;
+}
+footer p{
+    text-align: center;
+    color: whitesmoke;
+}
+footer .redes a{
+    border-radius: 50%;
+    padding: 8px 12px;
+}
+footer ul li a.facebook {
+    background: #3a5998;
+}
+footer ul li a.instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+footer .iso{
+    float: right;
+    width: 13%;
+    position: relative;
+    bottom: 55px;
+}
+footer .redes li {
+    display: inline-block;
+    margin-right: 0;
+}
+footer .redes li a i{
+    font-size: 18px;
+    line-height: 38px;
+}
+
