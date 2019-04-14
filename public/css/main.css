@@ -264,9 +264,32 @@ main{
     border-color: #00677F
 }
 /*First Section*/
-
-
-
+.first-section .carousel .carousel-caption h5{
+    font-size: 24px;
+}
+.first-section .carousel .carousel-caption p span{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.first-section .carousel .carousel-caption .main-btn{
+    width: 100%;
+    line-height: 38px;
+}
+.first-section .carousel .carousel-caption span{
+    font-size: 10px;
+}
+.first-section .carousel .carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 80px;
+    left: 64%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: inherit !important;
+}
 
 /*Second Section*/
 .second-section{
@@ -308,7 +331,7 @@ main{
 
 /*Third Section*/
 .third-section{
-    padding: 40px 0;
+    padding: 100px 0 60px;
 }
 .third-section .common-box{
     background-image: url(../images/backkeyboard.jpg);
@@ -344,6 +367,16 @@ main{
 
 
 /*Fourth Section*/
+.fourth-section h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.fourth-section span{
+    color: #00819d;
+    margin-right: 15px;
+    display: inline-block;
+}
 .fourth-section .card.first{
     background-image: url(../images/serviciotecnico.png);
     height: 350px;
@@ -383,9 +416,21 @@ main{
     background: #343434 !important;
     border: 1px solid #343434 !important;
 }
+
+
 /*Fifth Section*/
 .fifth-section{
     padding: 40px 0;
+}
+.fifth-section h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.fifth-section span{
+    color: #00819d;
+    margin-right: 15px;
+    display: inline-block;
 }
 .fifth-section .card{
     background-color: #3b3c3d !important;
@@ -393,11 +438,21 @@ main{
 }
 .fifth-section .card-title{
     color: #c1c1c1;
+    font-weight: bold;
 }
 .fifth-section .card-text{
     text-align: inherit;
+    color: #c1c1c1;
+    font-size: 15px;
 }
-
+.fifth-section .card-text a{
+    color: #00819d;
+}
+.fifth-section .all{
+    float: right; 
+    color: #c1c1c1;
+    margin-top: 20px;
+}
 
 /*Cotiza Section*/
 
@@ -910,7 +965,7 @@ main{
     background: transparent;
     margin-bottom: 15px;
     margin-top: 15px;
-    line-height: 32px 40px;
+    line-height: 37px;
 }
 .description-layout .cotizar-box{
     background: #fafafa;
