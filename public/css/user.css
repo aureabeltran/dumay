@@ -299,6 +299,7 @@ main{
     padding: 25px 25px 0;
     margin-left: 18px;
     text-align: center;
+    width: 20%;
 }
 .second-section .common-box a{
     cursor: pointer;
@@ -618,11 +619,15 @@ main{
 .second-section.model .common-box{
     display: inline-flex;
 }
+.second-section.model .common-box a:first-child{
+    margin-left: 0px;
+}
 .second-section.model .common-box a{
     border-radius: 6%;
     border: 1px solid #fff;
     padding: 25px 25px 10px;
     margin-left: 18px;
+    position: relative;
 }
 .second-section.model .common-box a{
     cursor: pointer;
@@ -632,11 +637,16 @@ main{
     background: #666;
 }
 .second-section.model .common-box p{
-    position: relative;
-    top: 40px;
+    position: absolute;
+    bottom: -30px;
     line-height: .5;
     margin-bottom: 0;
     color: #c1c1c1;
+    text-align: center;
+    line-height: 15px;
+    top: inherit;
+    left: 0px;
+    right: 0px;
 }
 .third-section.model{
     padding: 40px 0;
