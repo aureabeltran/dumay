@@ -261,8 +261,11 @@ main{
 }
 .main-btn:hover{
     background: #00677F;
-    border-color: #00677F
+    border-color: #00677F;
+    color: #fff!important
 }
+
+
 /*First Section*/
 .first-section .carousel .carousel-caption h5{
     font-size: 24px;
@@ -309,7 +312,8 @@ main{
 .second-section .common-box a{
     border-radius: 6%;
     border: 1px solid #fff;
-    padding: 25px 25px 0;
+    padding: 20px 16px 0;
+    width: 20%;
     margin-left: 18px;
     text-align: center;
 }
@@ -325,6 +329,7 @@ main{
     top: 50px;
     line-height: 1;
     margin-bottom: 0;
+    text-align: center;
     color: #c1c1c1;
 }
 
@@ -343,7 +348,17 @@ main{
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: 1;
-    opacity: 0.7;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+.third-section .common-box::after{
+    background: rgba(0,0,0,.3);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: "";
 }
 .third-section .common-box__text{
     text-align: center !important;
@@ -353,16 +368,24 @@ main{
     font-size: 24px;
 }
 .third-section .common-box__text p{
-    color: #c1c1c1;
+    color: #fff;
     font-size: 18px;
     margin-left: 88px;
     white-space: inherit;
 }
 .third-section .common-box__text .main-btn{
-    width: 55%;
+    width: 200px;
     line-height: 37px;
     background: #343434 !important;
     border: 1px solid #343434 !important;
+    border-radius: 0px !important;
+    height: 42px;
+    display: block;
+    float: right;
+}
+.third-section .common-box .common-box__text{
+    position: relative;
+    z-index: 100;;
 }
 
 
@@ -395,26 +418,53 @@ main{
     background-position: inherit;
     background-repeat: no-repeat;
     z-index: 1;
-    opacity: 0.3;
     border: transparent;
 }
 .fourth-section .card .card-body{
     padding: 50px 40px;
+    position: relative;
+    z-index: 500;
+}
+.fourth-section .card::after{
+    transition: .3s;
+    -webkit-transition:.3s;
+    position: absolute;
+    content: "";
+    background: rgba(0,0,0,.5);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.fourth-section .card:hover::after{
+    position: absolute;
+    content: "";
+    background: rgba(0, 79, 97, .8);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.fourth-section .card:hover .main-btn{
+    background: #00819d!important;
+    border: 1px solid #00819d!important;
 }
 .fourth-section .card .card-title{
     font-size: 24px;
+    color: #fff !important
 }
 .fourth-section .card .card-text{
-    color: #c1c1c1;
-    font-size: 18px;
+    color: #fff!important;
+    font-size: 16px;
 }
 .fourth-section .card .main-btn{
     width: 55%;
-    line-height: 35px;
+    line-height: 40px;
 }
-.fourth-section .card.second .main-btn{
+.fourth-section .card .main-btn{
     background: #343434 !important;
     border: 1px solid #343434 !important;
+    margin-top: 30px;
 }
 
 
@@ -442,18 +492,18 @@ main{
 }
 .fifth-section .card-text{
     text-align: inherit;
-    color: #c1c1c1;
-    font-size: 15px;
+    color: #fff!important
 }
 .fifth-section .card-text a{
-    color: #00819d;
+    color: #fff;
+    font-weight: bold;
+    display: block
 }
 .fifth-section .all{
-    float: right; 
+    float: right;
     color: #c1c1c1;
-    margin-top: 20px;
+    margin-top: 30px;
 }
-
 /*Cotiza Section*/
 
 .first-section.cotiza{
