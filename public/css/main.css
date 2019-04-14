@@ -299,7 +299,7 @@ main{
 }
 .second-section .common-box p{
     position: relative;
-    top: 40px;
+    top: 50px;
     line-height: 1;
     margin-bottom: 0;
     color: #c1c1c1;
@@ -322,14 +322,67 @@ main{
     z-index: 1;
     opacity: 0.7;
 }
-
+.third-section .common-box__text{
+    text-align: center !important;
+}
+.third-section .common-box__text h5{
+    color: #fff;
+    font-size: 24px;
+}
+.third-section .common-box__text p{
+    color: #c1c1c1;
+    font-size: 18px;
+    margin-left: 88px;
+    white-space: inherit;
+}
+.third-section .common-box__text .main-btn{
+    width: 55%;
+    line-height: 37px;
+    background: #343434 !important;
+    border: 1px solid #343434 !important;
+}
 
 
 /*Fourth Section*/
-
-
-
-
+.fourth-section .card.first{
+    background-image: url(../images/serviciotecnico.png);
+    height: 350px;
+    width: 100%;
+    position: relative;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    z-index: 1;
+    border: transparent;
+}
+.fourth-section .card.second{
+    background-image: url(../images/desabolladura.png);
+    height: 350px;
+    width: 100%;
+    position: relative;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    z-index: 1;
+    opacity: 0.3;
+    border: transparent;
+}
+.fourth-section .card .card-body{
+    padding: 50px 40px;
+}
+.fourth-section .card .card-title{
+    font-size: 24px;
+}
+.fourth-section .card .card-text{
+    color: #c1c1c1;
+    font-size: 18px;
+}
+.fourth-section .card .main-btn{
+    width: 55%;
+    line-height: 35px;
+}
+.fourth-section .card.second .main-btn{
+    background: #343434 !important;
+    border: 1px solid #343434 !important;
+}
 /*Fifth Section*/
 .fifth-section{
     padding: 40px 0;
@@ -341,13 +394,20 @@ main{
 .fifth-section .card-title{
     color: #c1c1c1;
 }
-
+.fifth-section .card-text{
+    text-align: inherit;
+}
 
 
 /*Cotiza Section*/
 
 .first-section.cotiza{
-    padding: 40px 0;
+    padding: 60px 0 90px;
+}
+.first-section.cotiza h5{
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 22px;
 }
 .first-section.cotiza form{
     background: #3a3b3c;
@@ -360,13 +420,25 @@ main{
     color: #c1c1c1;
     background-color: #3b3c3c;
 }
+.first-section.cotiza label{
+    color: #c1c1c1;
+}
 .first-section.cotiza form button.btn-solicita{
     background: #00819d !important;
     border: #00819d !important;
     float: right;
 }
+.first-section.cotiza .card {
+    border: transparent;
+}
 .first-section.cotiza .card .card-body.first{
     padding: .5rem .5rem .5rem 2rem;
+    background: #3a3b3c;
+    color: #c1c1c1;
+}
+.first-section.cotiza .card .card-body.second{
+    background: #3a3b3c;
+    color: #c1c1c1;
 }
 .first-section.cotiza .card .card-body.first img{
     width: 20%;
@@ -390,6 +462,9 @@ main{
     margin-top: 12px;
     background: #00819d !important;
     border: #00819d !important;
+}
+.first-section.cotiza input.form-control{
+    border: 1px solid #c1c1c1;
 }
 
 /*Usados Section*/
@@ -580,7 +655,10 @@ main{
     background: #00819d !important;
     border: #00819d !important;
 }
-
+.model .card .card-body .main-btn{
+    width: 40% !important;
+    line-height: 38px !important;
+}
 
 
 /*Historia Section*/
@@ -596,7 +674,17 @@ main{
     white-space: inherit;
     font-size: 20px;
     color: #c1c1c1;
+    padding: 15px 10px 0 0;
 }
+.first-section.historia .common-box__figure img{
+    width: 100%;
+}
+.first-section.historia hr{
+    margin-top: 15rem;
+    margin-bottom: 12rem;
+}
+
+
 /*aury*/
 .layout-image{
     position: relative;
@@ -863,6 +951,8 @@ main{
     color: #000;
     font-size: 16px;
 }
+
+
 /*Footer*/
 footer{
     background-color: #222222;
