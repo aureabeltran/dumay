@@ -1128,6 +1128,7 @@ footer li a{
 footer p{
     text-align: center;
     color: whitesmoke;
+    margin-bottom: 0px;
 }
 footer .redes a{
     border-radius: 50%;

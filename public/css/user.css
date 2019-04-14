@@ -1010,6 +1010,7 @@ footer li a{
 }
 footer p{
     text-align: center;
+    margin-bottom: 0px;
     color: whitesmoke;
 }
 footer .redes a{
