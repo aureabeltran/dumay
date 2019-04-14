@@ -169,6 +169,7 @@ header .navbar-expand-lg .navbar-nav .nav-item,.navbar-dark .navbar-nav .nav-lin
 .nav-top  ul li a.main-btn{
     min-width: 178px;
     margin-left:100px;
+    padding: 0px;
 }
 .nav-top  ul{
     width: 80%;
