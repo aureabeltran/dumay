@@ -460,10 +460,67 @@ main{
     background: #00819d !important;
     border: #00819d !important;
     width: 100%;
-    padding: 15px;
     margin-top: 15px;
 }
-
+.description-layout .box-content{
+    padding: 40px ;
+    background: #343434;
+    border-radius: 6px;
+}
+.description-layout .box-content h5{
+    display: inline-block;
+    color: #c1c1c1;
+    margin-bottom: 0px;
+    font-weight: lighter;
+    line-height: 50px
+}
+.description-layout .box-content .main-btn{
+    display: inline;
+    min-width: 200px;
+    float: right;
+    cursor: pointer;
+}
+.description-layout .tab-content h4{
+    margin-top: 0px;
+    color: #fff;
+    font-size: 20px;
+    
+}
+.description-layout .tab-content ul {
+    column-count: 2;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.description-layout .tab-content ul li{
+    color: #fff;
+    font-size: 16px;
+    list-style-type: disc;
+    margin-bottom: 8px;
+}
+.description-layout .icons ul{
+    display: flex;
+}
+.description-layout .icons ul li{
+    margin: auto;
+    text-align: center
+}
+.description-layout .icons ul li img{
+    margin-bottom: 15px;
+    min-height: 50px;
+}
+.description-layout .icons ul li h5{
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+.description-layout .icons ul li h5 span{
+    font-size: 14px;
+    display: block;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5px
+}
 
 
 /*Modelo Section*/
