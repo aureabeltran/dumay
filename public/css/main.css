@@ -419,18 +419,37 @@ main{
     margin-bottom: 0;
     padding-bottom: 0;
     line-height: 1.5;
+    font-weight: bold;
+}
+.second-section.usados .card p span{
+    font-weight: 100;
 }
 .second-section.usados .card{
     border: transparent;
 }
 .second-section.usados .card .card-body.first{
     background: #000;
-    padding: 1rem 1.25rem .5rem !important;
+    padding: 10px  20px !important;
+}
+.second-section.usados .card .card-body.first .card-title{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
 }
 .second-section.usados .card .card-body.second{
     background: #c1c1c1;
-    padding: 1rem 1.25rem .5rem !important;
+    padding: 10px 20px;
 }
+.second-section.usados .card .card-body.second .card-title{
+    margin: 0px;
+    font-weight: bold;
+    color: #000
+}
+.second-section.usados .card .card-body.second .card-title span{
+    color: #00819d
+}
+.second-section.usados .card .card-body.second
 .second-section.usados .card .card-body.third{
     padding: 1rem 1.25rem !important;
 }
