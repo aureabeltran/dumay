@@ -220,7 +220,7 @@ nav ul li a i.fab.fa-instagram {
     color: #fff;
 }
 main{
-    background-color: #37323a;
+    background-color: #2d2d2d;
 }
 
 .main-btn{
@@ -496,12 +496,15 @@ main{
     font-size: 20px;
     color: #c1c1c1;
 }
+/*aury*/
 .layout-image{
     position: relative;
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 60px 0px
+    padding: 60px 0px;
+    align-items: center;
+    display: flex;
 }
 .layout-image::after{
     position: absolute;
@@ -518,12 +521,210 @@ main{
     position: relative;
 }
 .layout-image .text-layer h1{
-    font-size: 40px;
+    font-size: 32px;
     color: #fff
 }
+.layout-image .text-layer h1 span{
+    font-size:  20px
+}
+.layout-image .text-layer h1 strong{
+    font-size: 50px;
+    font-weight: 600;
+}
+.layout-image .text-layer small{
+ color: #fff
+}
+.layout-image .main-btn{
+    margin-top: 15px;
+    min-height: 50px;
+    min-width: 200px;
+    margin-bottom: 15px;
+}
+.description-layout{
+    padding: 80px 0px;
+}
+.description-layout h3{
+    color: #fff
+}
+.description-layout .text-box{
+    padding-right: 40px
+}
+.description-layout p{
+    color: #fff;
+    font-size: 16px;
+    text-align: justify
+}
+.responsive-img{
+    max-width: 100%;;
+}
+.description-layout .table-dark{
+    background: #292929
+}
+.description-layout .table-dark td img{
+    width: 20px;
+}
+.description-layout h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.description-layout h4 span{
+    color: #00819d;
+    margin-right: 15px;
+    display: inline-block
+}
+.description-layout .toggle-content {
+    margin-bottom: 15px;
+}
+.description-layout .toggle-content .title{
+    background: #343434;
+    width: 100%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 10px 25px; 
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+.description-layout .toggle-content .title h4{
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    width: 70%;
+    margin:0;
+    display: inline-block
+}
+.description-layout .toggle-content.active .title{
+    background: #00819d;
+}
+.description-layout .toggle-content .title .toggle-btn{
+    text-align: center;
+    background: transparent;
+    border: 1px solid transparent;
+    float: right;
+    cursor: pointer;
+}
+.description-layout .toggle-content .title .toggle-btn img{
+    width: 20px;
+    margin-right: 10px;
+}
+.description-layout .toggle-content .content{
+    height: 0px;
+    min-height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: min-height 0.5s ease, opacity 0.5s linear ;
+    -moz-transition: min-height 0.5s ease, opacity 0.5s linear ;
+    -o-transition: min-height 0.5s ease, opacity 0.5s linear ;
+    transition: min-height 0.5s ease, opacity 0.5s linear ;
+    padding: 20px 0px;
+    display: none;
+}
+.description-layout .toggle-content.active .content{
+    min-height: 300px;
+    height: auto;
+    display: block;
+    opacity: 1;
+    
+}
+.description-layout  .nav-tabs .nav-link{
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent!important;
+}
+.description-layout  .nav-tabs .nav-link.active{
+    color: #fff!important;
+    background-color: #00819d!important;
+    border-color: #00819d!important;
+}
+.description-layout .download-btn{
+    font-size: 16px;
+    color: #c1c1c1;
+    text-decoration: underline;
+}
+.description-layout .download-btn img{
+    width: 20px;
+    margin-right: 15px;
+}
+.description-layout .box-car{
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.description-layout .box-car .tag{
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 64px;
+    height: 64px;
+    background: #00819d;
+    padding: 10px;
+    border-radius: 4px 0px 0px 4px;
+    color: #fff;
+    box-shadow: 0px 4px 4px rgba(0,0,0,.4)
+}
+.description-layout .box-car .tag span{
+    font-size: 12px;
+}
+.description-layout .box-car .title{
+    background: #343434;
+    padding: 8px 8px;
+}
+.description-layout .box-car .title img{
+    width: 52px;
+    float: left
+}
+.description-layout .box-car .title h5{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.description-layout .box-car .title small{
+    color: #fff;
+    font-size: 12px;
+}
+.description-layout .box-car  .image-box{
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 200px;
+}
+.description-layout .box-car  .image-box img{
+    width: 100%;
+}
+.description-layout .box-car  .detail-box h4{
+    color: #000;
+    font-size: 20px;
+}
+.description-layout .box-car  .detail-box h4 span{
+    color: #00819d;
+    font-size: 22px;
+}
+.description-layout .box-car  .detail-box  small{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+.description-layout .box-car  .detail-box{
+    padding: 20px;
+}
+.description-layout .box-car  .detail-box .main-btn{
+    width: 80%;
+    margin: auto;
+}
+.description-layout .box-car  .detail-box .main-btn.white-btn{
+    border: 1px solid #999999;
+    color: #000;
+    margin: auto;
+    background: transparent;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    line-height: 42px;
+}
+
 /*Footer*/
 footer{
-    background-color: #2e2b32;
+    background-color: #222222;
     padding: 40px 0px;
 }
 footer a:hover{

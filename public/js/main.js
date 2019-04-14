@@ -104,4 +104,40 @@ $(document).ready(function(){
             })
         }
     })
+    $('.first-one').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        items: 1,
+        linked: ".second-one"
+    })
+    $('.second-one').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        items: 4,
+        linked: ".second-one"
+    })
+
+    $('.owl-one').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+    $(".toggle-content .toggle-btn").on("click", function(){
+        let parent = $(this).parent().parent();
+        parent.siblings().removeClass("active")
+        parent.toggleClass("active");
+    })
 });
