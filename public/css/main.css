@@ -420,6 +420,7 @@ main{
     padding-bottom: 0;
     line-height: 1.5;
     font-weight: bold;
+    color: #000;
 }
 .second-section.usados .card p span{
     font-weight: 100;
@@ -447,7 +448,9 @@ main{
     color: #000
 }
 .second-section.usados .card .card-body.second .card-title span{
-    color: #00819d
+    color: #00819d;
+    font-family: "Montserrat bold";
+    font-weight: bold;
 }
 .second-section.usados .card .card-body.second
 .second-section.usados .card .card-body.third{
