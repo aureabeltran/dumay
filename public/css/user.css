@@ -123,7 +123,7 @@ textarea{
     -webkit-border-radius: 10px;
 }
 .navbar-dark .navbar-nav .nav-link{
-    padding: .6rem 1.8rem; 
+    padding: .2rem 1.8rem; 
 }
 .navbar-expand-lg .navbar-nav{
     min-width: 60%;
@@ -131,7 +131,7 @@ textarea{
 .navbar-expand-lg .navbar-nav.navbar-right{
     min-width: inherit;
 }
-.navbar-expand-lg .navbar-nav.navbar-right .phone{
+.navbar-expand-lg .navbar-nav.navbar-right .phone a.nav-link{
     min-width: 160px;
     background-color: #6b6b6a;
     border: 1px solid transparent;
