@@ -169,6 +169,7 @@ header .navbar-expand-lg .navbar-nav .nav-item,.navbar-dark .navbar-nav .nav-lin
 .nav-top  ul li a.main-btn{
     min-width: 178px;
     margin-left:100px;
+    padding: 0px;
 }
 .nav-top  ul{
     width: 80%;
@@ -254,7 +255,7 @@ main{
     color: #fff;
     text-align: center;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 42px;
     display: block;
     transition: .3s;
     -webkit-transition: .3s
@@ -269,6 +270,7 @@ main{
 /*First Section*/
 .first-section .carousel .carousel-caption h5{
     font-size: 24px;
+    color: #fff;
 }
 .first-section .carousel .carousel-caption p span{
     font-size: 30px;
@@ -285,7 +287,7 @@ main{
 .first-section .carousel .carousel-caption{
     position: absolute;
     right: 15%;
-    bottom: 80px;
+    top: 30%;
     left: 64%;
     z-index: 10;
     padding-top: 0px;
@@ -310,7 +312,7 @@ main{
     display: inline-flex;
 }
 .second-section .common-box a{
-    border-radius: 6%;
+    border-radius: 4px;
     border: 1px solid #fff;
     padding: 20px 16px 0;
     width: 20%;
@@ -323,6 +325,7 @@ main{
 .second-section .common-box a:active, 
 .second-section .common-box a:hover{
     background: #666;
+    box-shadow: 4px 8px 6px rgba(0,0,0,.7)
 }
 .second-section .common-box p{
     position: relative;
@@ -634,6 +637,28 @@ main{
     background: #c1c1c1;
     padding: 45px 50px 10px;
 }
+.first-section.usados .types-cars{
+    background: #fafafa;
+    padding: 40px;
+}
+.first-section.usados .types-cars h5{
+    color: #000;
+    padding-bottom: 30px;
+    font-family: "Montserrat bold";
+    position: relative;
+}
+.first-section.usados .types-cars h5::after{
+    position: absolute;
+    bottom: 12px;
+    content: "";
+    left: 0px;
+    width: 30px;
+    height: 2px;
+    background: #000;
+}
+.first-section.usados .types-cars p{
+    margin-bottom: 0px;
+}
 .first-section.usados h2,
 .second-section.usados h2{
     text-align: center;
@@ -644,6 +669,7 @@ main{
     color: #2d2d2d;
     font-weight: bolder;
     margin-bottom: 30px;
+    font-family: "Montserrat bold";
 }
 
 .second-section.usados .card p{
@@ -1168,6 +1194,7 @@ footer li a{
 footer p{
     text-align: center;
     color: whitesmoke;
+    margin-bottom: 0px;
 }
 footer .redes a{
     border-radius: 50%;
