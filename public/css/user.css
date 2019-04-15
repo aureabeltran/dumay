@@ -963,6 +963,10 @@ main{
     color: #000;
     font-size: 16px;
 }
+
+
+
+
 /*Footer*/
 footer{
     background-color: #222222;
@@ -1042,3 +1046,46 @@ footer .redes li a i{
     line-height: 38px;
 }
 
+.fourth-section.model .card{
+    background: #343434;
+    color: #c1c1c1;
+}
+.fourth-section.model .card-body{
+    padding: 3.25rem;
+}
+.fourth-section.model .card .first-box{
+    border-right: 1px solid #00919d;
+}
+.fourth-section.model .card .first-box h5{
+    color: #00819d;
+    font-weight: bold;
+    font-size: 22px;
+}
+.fourth-section.model .card .first-box a{
+    color: #fff;
+    font-weight: bold;
+}
+.fourth-section.model .card .first-box .main-btn{
+    width: 40%;
+    line-height: 38px;
+}
+.fourth-section.model .card .second-box{
+    padding: 20px 0 20px 40px;
+}
+.fourth-section.model .card .second-box h5{
+    font-size: 22px;
+}
+.fourth-section.model .card .second-box p{
+    line-height: 40px;
+}
+.fourth-section.model .card .second-box span{
+    border-radius: 50%;
+    background: #00819d;
+    padding: 14px 12px;
+}
+.fourth-section.model .card .second-box i{
+    font-size: 20px;
+}
+.fourth-section.model .card .second-box img{
+    width: 7% !important;
+}
