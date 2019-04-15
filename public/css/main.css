@@ -365,23 +365,30 @@ main{
 }
 .third-section .common-box__text h5{
     color: #fff;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
 }
 .third-section .common-box__text p{
     color: #fff;
     font-size: 18px;
-    margin-left: 88px;
     white-space: inherit;
 }
 .third-section .common-box__text .main-btn{
-    width: 200px;
+    /*width: 200px;
     line-height: 37px;
+    border-radius: 0px !important;
+    height: 42px;*/
     background: #343434 !important;
     border: 1px solid #343434 !important;
-    border-radius: 0px !important;
-    height: 42px;
     display: block;
     float: right;
+    font-size: 20px;
+    width: 80%;
+    height: 55px;
+    line-height: 50px;
+    border-radius: 8px !important;
+    margin-top: 20px;
 }
 .third-section .common-box .common-box__text{
     position: relative;
@@ -509,6 +516,36 @@ main{
 .first-section.cotiza{
     padding: 60px 0 90px;
 }
+.first-section.cotiza .description-layout{
+    padding: 0;
+}
+.first-section.cotiza .description-layout .box-car .tag{
+    top: 66%;
+}
+.first-section.cotiza .description-layout .box-car .detail-box .main-btn{
+    margin-top: 32px;
+}
+.first-section.cotiza .description-layout .box-car{
+    background: #343434;
+    color: #c1c1c1;
+}
+.first-section.cotiza .description-layout .box-car .title h5{
+    font-size: 18px;
+}
+.first-section.cotiza .description-layout .box-car .title small{
+    font-size: 14px;
+}
+.first-section.cotiza .description-layout .box-car .detail-box{
+    padding: 5px 20px 20px;
+}
+.first-section.cotiza .description-layout .box-car .detail-box h4{
+    color: #c1c1c1;
+    margin-top: 16px;
+}
+.first-section.cotiza .description-layout .box-car .detail-box .reference{
+    float: right;
+    font-size: 8px;
+}
 .first-section.cotiza h5{
     font-weight: bold;
     margin-bottom: 40px;
@@ -532,6 +569,8 @@ main{
     background: #00819d !important;
     border: #00819d !important;
     float: right;
+    color: #fff;
+    width: 40%;
 }
 .first-section.cotiza .card {
     border: transparent;
@@ -583,16 +622,28 @@ main{
     background-position: inherit;
     background-repeat: no-repeat;
     z-index: 1;
-    opacity: 0.7;
+    position: relative;
+}
+.first-section.usados::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
 }
 .first-section.usados .types-cars{
     background: #c1c1c1;
-    padding: 50px;
+    padding: 45px 50px 10px;
 }
-
 .first-section.usados h2,
 .second-section.usados h2{
     text-align: center;
+    color: #fff;
+    font-weight: bolder;
+}
+.first-section.usados h5{
+    color: #2d2d2d;
+    font-weight: bolder;
+    margin-bottom: 30px;
 }
 
 .second-section.usados .card p{
@@ -614,7 +665,7 @@ main{
 }
 .second-section.usados .card .card-body.first .card-title{
     margin: 0px;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 600;
     color: #fff;
 }
@@ -760,9 +811,20 @@ main{
     background: #00819d !important;
     border: #00819d !important;
 }
-.model .card .card-body .main-btn{
+.third-section.model .card .card-body .main-btn{
     width: 40% !important;
     line-height: 38px !important;
+}
+.third-section.model .card .card-body a:hover{
+    color: #fff;
+}
+.fourth-section.model .card .card-text span{
+    border-radius: 50% !important;
+    background: red !important;
+    padding: 16px 14px !important;
+}
+.fourth-section.model .card .card-text span img{
+    width: 8% !important;
 }
 
 
